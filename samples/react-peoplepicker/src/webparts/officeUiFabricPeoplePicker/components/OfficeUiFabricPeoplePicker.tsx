@@ -93,6 +93,7 @@ export default class OfficeUiFabricPeoplePicker extends React.Component<IOfficeU
           onResolveSuggestions={this._onFilterChanged }
           getTextFromItem={(persona: IPersonaProps) => persona.primaryText}
           pickerSuggestionsProps={suggestionProps}
+          selectedItems={this.state.selectedItems}
           className={'ms-PeoplePicker'}
           key={'normal'}
         />
@@ -104,6 +105,7 @@ export default class OfficeUiFabricPeoplePicker extends React.Component<IOfficeU
           onResolveSuggestions={this._onFilterChanged }
           getTextFromItem={(persona: IPersonaProps) => persona.primaryText}
           pickerSuggestionsProps={suggestionProps}
+          selectedItems={this.state.selectedItems}
           className={'ms-PeoplePicker'}
           key={'normal'}
         />
