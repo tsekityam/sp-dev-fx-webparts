@@ -28,7 +28,7 @@ import {
   IEnsureUser,
   IOfficeUiFabricPeoplePickerState,
   SharePointUserPersona } from '../models/OfficeUiFabricPeoplePicker';
-import { IPersonaWithMenu } from 'office-ui-fabric-react/lib/components/pickers/PeoplePicker/PeoplePickerItems/PeoplePickerItem.Props';
+import { IPersonaWithMenu } from 'office-ui-fabric-react/lib/components/pickers/PeoplePicker/PeoplePickerItems/PeoplePickerItem.types';
 
 const suggestionProps: IBasePickerSuggestionsProps = {
   suggestionsHeaderText: 'Suggested People',
